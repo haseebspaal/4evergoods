@@ -1,0 +1,661 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4everGoods | products</title>
+  
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon">
+  
+    <!-- Font-Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  
+    <!-- CSS Style Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- LightBox Links -->
+    <link rel="stylesheet" href="assets/lightbox-thumbnail/slick.css">
+    <link rel="stylesheet" href="assets/lightbox-thumbnail/lg-fb-comment-box.min.css">
+    <link rel="stylesheet" href="assets/lightbox-thumbnail/lg-transitions.min.css">
+    <link rel="stylesheet" href="assets/lightbox-thumbnail/lightgallery.min.css">
+    <link rel="stylesheet" href="assets/lightbox-thumbnail/loading.gif">
+
+    <style>
+        .item-slick.slick-slide.slick-current.slick-active {
+            outline: none !important;
+        }
+
+        .slider-for {
+            max-height: 220px;
+            /* margin-bottom: 15px; */
+        }
+
+        .slider-for img {
+            width: 100%;
+            max-height: 80%;
+            margin-top: 20px;
+        }
+
+        .slider-nav {
+            margin-top: 190px ;
+            max-height: 100px;
+        }
+
+        .slider-nav .item-slick {
+            max-width: 240px;
+            margin-right: 15px;
+            outline: none !important;
+            cursor: pointer;
+        }
+
+        .slider-nav .item-slick img {
+            max-width: 100%;
+            /* background-size: cover; */
+            /* background-position: center; */
+        }
+
+        .slick-arrow {
+            position: absolute;
+            top: 50px;
+            z-index: 58765780;
+            background-color: black !important;
+        }
+
+        .slick-prev {
+            left: 0;
+        }
+
+        .slick-next {
+            right: 0;
+        }
+        .lg-outer .lg-image {
+            width: 500px !important;
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light px-5 bg-white">
+        <div class="container">
+            <a class="navbar-brand mx-1" href="index.html">
+                <img class="mx-lg-4 mx-sm-4" src="assets/img/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-md-flex ms-auto mb-2 text-center my-lg-0 my-xl-0 mx-4 my-4 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link my-lg-0 my-xl-0 my-4" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-lg-0 my-xl-0 active my-3" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-lg-0 my-xl-0 my-3" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-lg-0 my-xl-0 my-3" href="contact.html">Contact Us</a>
+                    </li>
+                    <div class="dropdown ">
+                        <button class="text-muted  btn dropdown-toggle my-lg-0 my-xl-0 my-3" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mission & Vision
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item " href="values.html">Our Values</a></li>
+                            <li><a class="dropdown-item" href="vision.html">Vision & Mission</a></li>
+                        </ul>
+                    </div>
+                    <li class="nav-item my-lg-0 my-xl-0 my-3">
+                        <a class="nav-link" href="faq.html">FAQs</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="values products-banner py-5 text-center">
+        <div class="container-fluid pt-3">
+            <h1>Our Products</h1>
+        </div>
+    </div>
+
+
+    <!-- Two Boxes -->
+    <div class="boxes product-boxes">
+        <div class="container">
+            <div class="box pt-2">
+                <div class="drawer ">
+                    <img src="assets/img/draw.svg" alt="">
+                    <p class="text-muted">Drawer</p>
+                </div>
+                <hr class="hr">
+                </hr>
+                <div class="wardrobe">
+                    <img src="assets/img/wardrobe.svg" alt="">
+                    <p class="text-muted">Wardrobe</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-text">
+        <div class="container">
+            <h2 class="fs-2 text-center fw-bold">
+                Select your desire organizer
+            </h2>
+            <p class="text-muted py-3">
+                How many precious minutes of your life have you wasted, rifling through drawers looking for the right
+                set of underwear or matching socks? How many times have you finally located your favorite t-shirt, only
+                to realize it’s turned into a wrinkly mess?
+                <br><br>
+                Our organizers will help you restore order to your drawers, closets, and wardrobes. More importantly,
+                they’ll help you recover your sanity and style as you keep clothes neat, clean, and ready to go the
+                moment you need them.
+            </p>
+
+        </div>
+    </div>
+
+    <div class="packages">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="package">
+                        <h5>Compact Package (3 Pieces)</h5>
+                        <p>A base package for mid-size drawers, including small (belts, underwear, socks), medium
+                            (socks, small shirts), and large (bras) organizers.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="package">
+                        <h5>Compact Package (3 Pieces)</h5>
+                        <p>A base package for mid-size drawers, including small (belts, underwear, socks), medium
+                            (socks, small shirts), and large (bras) organizers.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="package">
+                        <h5>Compact Package (3 Pieces)</h5>
+                        <p>A base package for mid-size drawers, including small (belts, underwear, socks), medium
+                            (socks, small shirts), and large (bras) organizers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="product-gallery py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="vision my-3 d-flex">
+                        <div class="px-4 ">
+                            <div class="row">
+                                <div class="col-3 ">
+                                    <h4 class="fw-bold ">Premium material </h4>
+                                </div>
+                                <div class="col-9">
+                                    <p class="text-muted">
+                                        Unlike standard PVC, our top-of-the-line Oxford 600d fabri is flexible,
+                                        breathable, odorless, moisture-proof, and beautiful to look at.
+                                    </p>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="vision my-3 d-flex">
+                        <div class="px-4 ">
+                            <div class="row">
+                                <div class="col-3 ">
+                                    <h4 class="fw-bold ">built to last</h4>
+                                </div>
+                                <div class="col-9">
+                                    <p class="text-muted">
+                                        Unlike standard PVC, our top-of-the-line Oxford 600d fabri is flexible,
+                                        breathable, odorless, moisture-proof, and beautiful to look at.
+                                    </p>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="vision my-3 d-flex">
+                        <div class="px-4 ">
+                            <div class="row">
+                                <div class="col-3 ">
+                                    <h4 class="fw-bold ">Practical </h4>
+                                </div>
+                                <div class="col-9">
+                                    <p class="text-muted">
+                                        Unlike standard PVC, our top-of-the-line Oxford 600d fabri is flexible,
+                                        breathable, odorless, moisture-proof, and beautiful to look at.
+                                    </p>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="vision my-3 d-flex">
+                        <div class="px-4 ">
+                            <div class="row">
+                                <div class="col-3 ">
+                                    <h4 class="fw-bold ">Versatile </h4>
+                                </div>
+                                <div class="col-9">
+                                    <p class="text-muted">
+                                        Unlike standard PVC, our top-of-the-line Oxford 600d fabri is flexible,
+                                        breathable, odorless, moisture-proof, and beautiful to look at.
+                                    </p>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="vision my-3 d-flex">
+                        <div class="px-4 ">
+                            <div class="row">
+                                <div class="col-3 ">
+                                    <h4 class="fw-bold ">Hand Washable </h4>
+                                </div>
+                                <div class="col-9">
+                                    <p class="text-muted">
+                                        Unlike standard PVC, our top-of-the-line Oxford 600d fabri is flexible,
+                                        breathable, odorless, moisture-proof, and beautiful to look at.
+                                    </p>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+            
+                            <div id="aniimated-thumbnials" class="slider-for ">
+            
+                                <a href="assets/images/slider1.svg">
+                                    <img src="assets/images/slider1.svg" width="100%" />
+                                </a>
+                                <a href="assets/images/slider2.svg">
+                                    <img src="assets/images/slider2.svg" width="100%" />
+                                </a>
+                                <a href="assets/images/slider3.svg">
+                                    <img src="assets/images/slider3.svg" width="100%" />
+                                </a>
+                                <a href="assets/images/slider4.svg">
+                                    <img src="assets/images/slider4.svg" width="100%" />
+                                </a>
+                                <a href="assets/images/slider5.svg">
+                                    <img src="assets/images/slider5.svg" width="100%" />
+                                </a>
+                                <a href="assets/images/slider6.svg">
+                                    <img src="assets/images/slider6.svg" width="100%" />
+                                </a>
+            
+                            </div>
+                            <div class="slider-nav bg-white">
+                                <div class="item-slick">
+                                    <img src="assets/images/slider1.svg" width="100px" alt="1">
+                                </div>
+                                <div class="item-slick">
+                                    <img src="assets/images/slider2.svg" width="100px" alt="2">
+                                </div>
+                                <div class="item-slick">
+                                    <img src="assets/images/slider3.svg" width="100px" alt="3">
+                                </div>
+                                <div class="item-slick">
+                                    <img src="assets/images/slider4.svg" width="100px" alt="4">
+                                </div>
+                                <div class="item-slick">
+                                    <img src="assets/images/slider5.svg" width="100px" alt="5">
+                                </div>
+                                <div class="item-slick">
+                                    <img src="assets/images/slider6.svg" width="100px" alt="6">
+                                </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us py-5">
+        <div class="container">
+            <h2 class="text-center">Why Us and Not “Them”?</h2>
+            <p class="text-center">There are plenty of home goods supplies “like” us, but we go the extra mile to deliver a superior product that will last you 4ever            </p>
+        
+            <div class="vision mt-5 bg-light my-4 d-flex">
+                <div class="row">
+                    <div class="col-lg-2 d-block ">
+                        <div class="imgDiv w-100 ">
+                            <img src="assets/images/us1.svg" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 Pt-3">
+                            <h5>Branded</h5>
+                            <p class="pr-5">
+                                We are a North America operated company. We stand for our products.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="vision bg-light my-4 d-flex">
+                <div class="row">
+                    <div class="col-lg-2 d-lg-block ">
+                        <div class="imgDiv w-100 ">
+                            <img src="assets/images/us2.svg" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 Pt-3">
+                            <h5>Branded</h5>
+                            <p class="pr-5">
+                                We are a North America operated company. We stand for our products.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="vision bg-light my-4 d-flex">
+                <div class="row">
+                    <div class="col-lg-2 d-lg-block ">
+                        <div class="imgDiv w-100 ">
+                            <img src="assets/images/us3.svg" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 Pt-3">
+                            <h5>Branded</h5>
+                            <p class="pr-5">
+                                We are a North America operated company. We stand for our products.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="vision bg-light my-4 d-flex">
+                <div class="row">
+                    <div class="col-lg-2 d-lg-block ">
+                        <div class="imgDiv w-100 ">
+                            <img src="assets/images/us4.svg" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 Pt-3">
+                            <h5>Branded</h5>
+                            <p class="pr-5">
+                                We are a North America operated company. We stand for our products.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="vision bg-light my-4 d-flex">
+                <div class="row">
+                    <div class="col-lg-2 d-lg-block ">
+                        <div class="imgDiv w-100 ">
+                            <img src="assets/images/us5.svg" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 Pt-3">
+                            <h5>Branded</h5>
+                            <p class="pr-5">
+                                We are a North America operated company. We stand for our products.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="vision bg-light my-4 d-flex">
+                <div class="row">
+                    <div class="col-lg-2 d-lg-block ">
+                        <div class="imgDiv w-100 ">
+                            <img src="assets/images/us6.svg" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 Pt-3">
+                            <h5>Branded</h5>
+                            <p class="pr-5">
+                                We are a North America operated company. We stand for our products.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="vision bg-light my-4 d-flex">
+                <div class="row">
+                    <div class="col-lg-2 d-lg-block ">
+                        <div class="imgDiv w-100 ">
+                            <img src="assets/images/us7.svg" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 Pt-3">
+                            <h5>Branded</h5>
+                            <p class="pr-5">
+                                We are a North America operated company. We stand for our products.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="vision bg-light my-4 d-flex">
+                <div class="row">
+                    <div class="col-lg-2 d-lg-block ">
+                        <div class="imgDiv w-100 ">
+                            <img src="assets/images/us8.svg" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 Pt-3">
+                            <h5>Branded</h5>
+                            <p class="pr-5">
+                                We are a North America operated company. We stand for our products.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="vision bg-light my-4 d-flex">
+                <div class="row">
+                    <div class="col-lg-2 d-lg-block ">
+                        <div class="imgDiv w-100 ">
+                            <img src="assets/images/us9.svg" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 Pt-3">
+                            <h5>Branded</h5>
+                            <p class="pr-5">
+                                We are a North America operated company. We stand for our products.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="vision bg-light my-4 d-flex">
+                <div class="row">
+                    <div class="col-lg-2 d-lg-block ">
+                        <div class="imgDiv w-100 ">
+                            <img src="assets/images/us10.svg" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 Pt-3">
+                            <h5>Branded</h5>
+                            <p class="pr-5">
+                                We are a North America operated company. We stand for our products.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="vision bg-light my-4 d-flex">
+                <div class="row">
+                    <div class="col-lg-2 d-lg-block ">
+                        <div class="imgDiv w-100 ">
+                            <img src="assets/images/us11.svg" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 Pt-3">
+                            <h5>Branded</h5>
+                            <p class="pr-5">
+                                We are a North America operated company. We stand for our products.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="vision bg-light my-4 d-flex">
+                <div class="row">
+                    <div class="col-lg-2 d-lg-block ">
+                        <div class="imgDiv w-100 ">
+                            <img src="assets/images/us12.svg" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 Pt-3">
+                            <h5>Branded</h5>
+                            <p class="pr-5">
+                                We are a North America operated company. We stand for our products.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="vision bg-light my-4 d-flex">
+                <div class="row">
+                    <div class="col-lg-2 d-lg-block ">
+                        <div class="imgDiv w-100 ">
+                            <img src="assets/images/us13.svg" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 Pt-3">
+                            <h5>Branded</h5>
+                            <p class="pr-5">
+                                We are a North America operated company. We stand for our products.
+                            </p>
+                        </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container">
+            <div class="input-product mt-5">
+                <div class="row">
+                    <div class="col-11">
+                        <input type="text" placeholder="Learn about 4evergoods">
+                    </div>
+                    <div class="col-1">
+                        <button class="btn"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="p-5">
+            <div class="container px-5">
+                <div class="row py-4">
+                    <div class="col-lg-3 col-sm-12 my-4">
+                        <img src="assets/img/logo.svg" alt="">
+                        <p class="text-muted col-8 py-3 ">Transforming Lives Through
+                            Everyday Quality</p>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <h3 class="mb-3">Company</h3>
+                        <li>About</li>
+                        <li>Careers</li>
+                        <li>Mobile</li>
+                    </div>
+                    <div class=" col-lg-2 col-sm-4 my-lg-0">
+                        <h3 class="mb-3">Contact</h3>
+                        <li>Help / FAQ</li>
+                        <li>Press</li>
+                        <li>Affiliates</li>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 ">
+                        <h3 class="mb-3">More</h3>
+                        <li>Airline Fess</li>
+                        <li>Airline</li>
+                        <li>Low fair tips</li>
+                    </div>
+                    <div class="col-lg-3 icons d-flex col-sm-12 my-5">
+                        <i class="fa-brands rounded-circle fa-facebook"></i>
+                        <i class="fa-brands rounded-circle fa-instagram"></i>
+                        <i class="fa-brands rounded-circle fa-twitter"></i>
+                    </div>
+                </div>
+                <p class="text-muted">All rights reserved@jadoo.co</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+   
+
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script> -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+    <script src="assets/lightbox-thumbnail/jquery.min.js"></script>
+    <script src="assets/lightbox-thumbnail/jquery-ui.min.js"></script>
+    <script src="assets/lightbox-thumbnail/slick.min.js"></script>
+    <script src="assets/lightbox-thumbnail/lightgallery-all.min.js"></script>
+
+    <script>
+        $(function () {
+
+            $('#aniimated-thumbnials').lightGallery({
+                thumbnail: true,
+            });
+            // Card's slider
+            var $carousel = $('.slider-for');
+
+            $carousel
+                .slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    fade: true,
+                    adaptiveHeight: true,
+                    asNavFor: '.slider-nav'
+                });
+            $('.slider-nav').slick({
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for',
+                dots: false,
+                centerMode: true,
+                focusOnSelect: true,
+                variableWidth: true
+            });
+
+
+        });
+    </script>
+
+</body>
+
+</html>
